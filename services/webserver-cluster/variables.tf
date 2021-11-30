@@ -22,6 +22,7 @@ variable "db_remote_state_key" {
 variable "db_remote_state_region" {
     description = "The region for the database's remote state in S3"
     type        = string
+    default     = "us-east-2"
 }
 
 variable "instance_type" {
