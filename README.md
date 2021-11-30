@@ -1,5 +1,5 @@
 ## webserver_cluster
-### Usage
+### Example Usage
 ~~~
 module "webserver_cluster" {
     source = "github.com/charliecon/modules//services/webserver-cluster?ref=v0.0.1"
