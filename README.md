@@ -1,6 +1,7 @@
 ## webserver_cluster
 ### Example Usage
-~~~
+
+```hcl
 module "webserver_cluster" {
     source = "github.com/charliecon/modules//services/webserver-cluster?ref=v0.0.1"
 
@@ -13,7 +14,8 @@ module "webserver_cluster" {
     min_size      = 2
     max_size      = 10
 }
-~~~
+```
+
 ### Outputs
 - `alb_dns_name` - The domain name of the load balancer
 - `asg_name` - The name of the Auto Scaling Group
